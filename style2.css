@@ -1,0 +1,229 @@
+.whole{
+    background-color:#381240;
+    padding:60px 180px;
+    position: relative;
+}
+
+.title{
+    display:flex;
+    justify-content:center;
+    margin-bottom:240px;
+    font-size:80px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.question1{
+    margin-bottom:80px;
+    font-size:50px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.active-all{
+    background-color:#5A2168;
+    border:5px solid red;
+}
+
+.active{
+    background-color:red;
+    /*border:5px solid #7B3791;*/
+    margin-bottom:80px;
+    font-size:45px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.weapon{
+    display:flex;
+    justify-content:center;
+    /*margin-bottom:40px;*/
+    font-size:40px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.weaponexp{
+    display:flex;
+    justify-content:center;
+    margin-bottom:40px;
+    font-size:25px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.pic-title{
+    font-size:25px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+
+.hand{
+    display:flex;
+    justify-content:center;
+    margin-top:180px;
+    /*margin-bottom:40px;*/
+    font-size:40px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.handexp{
+    display:flex;
+    justify-content:center;
+    margin-bottom:40px;
+    font-size:25px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+
+.draw-title{
+    font-size:25px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.draw-text{
+    font-size:20px;
+    font-family:PMingLiU;
+    color:white;
+}
+
+.gap{
+    height:20px;
+}
+
+.gap2{
+    height:80px;
+}
+
+.passive-all{
+    background-color:#5A2168;
+    border:5px solid red;
+}
+
+.passive{
+    background-color:red;
+    /*border:5px solid red;*/
+    /*margin-top:100px;*/
+    margin-bottom:80px;
+    font-size:45px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.strangepara{
+    display:flex;
+    justify-content:center;
+    margin-bottom:100px;
+    font-size:20px;
+    font-family:PMingLiU;
+    color:white;
+}
+
+.question2{
+    margin-top:240px;
+    margin-bottom:80px;
+    font-size:50px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.last-all{
+    background-color:#5A2168;
+    border:5px solid red;
+}
+
+.lastpara-ti{
+    background-color:red;
+    /*border:5px solid #7B3791;*/
+    margin-bottom:80px;
+    font-size:45px;
+    font-family:Microsoft JhengHei;
+    color:white;
+}
+
+.usefulpara{
+    display:flex;
+    justify-content:center;
+    font-size:20px;
+    font-family:PMingLiU;
+    color:white;
+}
+
+.hamburger{
+    position: absolute;
+    z-index: 1;
+    left:0;
+    transition:0.2s;
+    cursor: pointer;
+
+}
+.hamburgeradd{
+left:12.5vw;
+z-index: 2;
+}
+.change{
+    list-style-type:none;
+    font-size:1.5em;
+}
+.h_nav{
+    height: 100vh;
+    width:15vw;
+    background-color: #3F3F3F;
+    position: absolute;
+    left:-15vw;
+    top:0;
+    transition:0.2s;
+}
+.h_navadd{
+   left:0;
+   transition:0.2s;
+   z-index: 1;
+}
+.h_nav li a{
+    color:white;
+    text-decoration: none;
+}
+.h_nav li:hover{
+    background-color: #5b5b5b;
+}
+
+.info{
+    height: 15vh;
+   text-align: center;
+}
+.footer{
+    height: 5vh;
+    background-color: #3F3F3F;
+   text-align: center;
+}
+.draw-img-top{
+    width:300px;
+}
+.up{
+    color:#ffe819;
+    font-size: 40px;
+    position: absolute;
+    right:30px;
+    bottom:5px;
+}
+@media screen and (max-width:1024px){
+    .whole{
+padding:60px 120px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .whole{
+      
+    }
+}
+
+@media screen and (max-width:376px){
+    .whole{
+            padding:40px 10px;  
+    }
+}

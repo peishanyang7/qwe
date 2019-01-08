@@ -1,0 +1,239 @@
+body{
+    padding: 0;
+}
+.hamburger{
+    position: absolute;
+    z-index: 1;
+    left:0;
+    transition:0.2s;
+    cursor: pointer;
+}
+.hamburgeradd{
+left:12.5vw;
+z-index: 2;
+}
+.h_nav{
+    height: 100vh;
+    width:15vw;
+    background-color: #3F3F3F;
+    position: absolute;
+    left:-15vw;
+    top:0;
+    transition:0.2s;
+}
+.h_navadd{
+   left:0;
+   transition:0.2s;
+   z-index: 1;
+}
+.h_nav li a{
+    color:white;
+    text-decoration: none;
+}
+.h_nav li:hover{
+    background-color: #5b5b5b;
+}
+.container-fluid{
+    padding: 0;
+}
+.parallax{
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+.picture{
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+}
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 105vh;
+  overflow-x: hidden;
+  
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+}
+.slide1 {
+  background-image: url("image/yang.png");
+  background-position: 0% 0%;
+}
+.slide2 {
+  background-image: url("image/chen.png");
+  background-position: 0 20%;
+}
+
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+.footer{
+  height: 5vh;
+  background-color: #3F3F3F;
+ text-align: center;
+}
+ul{
+  list-style-type:none;
+  font-size: 1.4rem;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+  .picture{
+    display: none;
+  }
+  .parallax{
+    background-image: url(image/abc1024.png);
+    background-size: cover;
+  }
+.wrap{
+  display: none;
+}
+body{
+  background-color: #5a2168;
+}
+.slide-content1{
+  width:100vw;
+  height: 80vh;
+ 
+  background-image: url(image/yang.png);
+  background-size: cover;
+  padding: 0;
+}
+.slide-content2{
+  width:100vw;
+  height:80vh;
+  background-image: url(image/chen.png);
+  background-size: cover;
+  padding: 0;
+  
+}
+.hamburgeradd{
+  left:11.7vw;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .picture{
+    display: none;
+  }
+  .parallax{
+    background-image: url(image/abc768.png);
+    background-size: cover;
+  }
+  .hamburgeradd{
+    left:11.7vw;
+    }
+    .h_nav{
+        width: 16vw;
+    }
+    ul{
+        font-size:1em;
+    }
+    body{
+      background-color: black;
+    }
+    .slide-content1{
+      width:100vw;
+      height:100vh;
+      background-image: url(image/yang768.png);
+      background-size: cover;
+      padding: 0;
+      margin-bottom:0;
+    }
+    .slide-content2{
+      width:100vw;
+      height:100vh;
+      background-image: url(image/chen768.png);
+      background-size: cover;
+      padding: 0;
+      margin-bottom:0;
+    }
+    .rwd{
+      font-size: 0;
+      padding:0;
+    }
+}
+
+
+@media screen and (max-width:376px){
+  .picture{
+    display: none;
+  }
+  .parallax{
+    background-image: url(image/abc375.png);
+    background-size: cover;
+  }
+  .h_nav{
+    width: 40vw;
+}
+body{
+  background-color: aqua;
+}
+.hamburgeradd{
+    left:32vw;
+    }
+    .slide-content1{
+      width:100vw;
+      height:100vh;
+      background-image: url(image/yang375.png);
+      background-size: cover;
+      padding: 0;
+      margin-bottom:0;
+    }
+    .slide-content2{
+      width:100vw;
+      height:100vh;
+      background-image: url(image/chen375.png);
+      background-size: cover;
+      padding: 0;
+      margin-top:0;
+    }
+    .rwd{
+      font-size: 0;
+      padding:0;
+    }
+}
